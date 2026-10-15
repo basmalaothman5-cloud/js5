@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrab v.6 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #f6f8ff;">
+
+    <!-- start header register home -->
+
+    <header class="header-register mt-5">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="md:col-6">
+                    <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" class="w-75">
+                </div>
+
+                <div class="md:col-6 d-flex flex-column justify-content-center">
+
+                   <h2>Create Account</h2>
+                   <h5 class="fg-secondary mt-4 mb-7">Go ahead and sign up, let everyone<br>Know how awesome you are!</h5>
+
+                   <h4 id="result"></h4>
+
+                   <form  onsubmit=" return vaildateValue()" action="success.html" method="get">
+
+                    <input  id="name" type="text" placeholder="User Name"  name="user" class="form-control mb-7 p-5 rounded-2">
+
+                    <input id="email"  type="text" placeholder="Email" name="email" class="form-control mb-7 p-5 rounded-2">
+                    
+                    <input  id="pass" type="password" placeholder="password" name="pass" class="form-control mb-7 p-5 rounded-2">
+
+                    <input  id="confirm" type="password" placeholder=" confirm password" name="condirm" class="form-control mb-7 p-5 rounded-2">
+
+                    <input  type="submit" value="Create Account" class="btn-solid theme-primary d-block w-100">
+
+                   </form>
+                </div>
+
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- end header section home -->
+
+
+    <!-- js.bootstrab v.6 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js.main -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
